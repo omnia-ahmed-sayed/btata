@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#190912" />
+  <title>Fatoma — The Birthday Issue</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <nav class="nav">
+    <a href="#home" class="brand">F<span>♥</span></a>
+    <div class="nav-links">
+      <a href="#gallery">Gallery</a><a href="#issue">The Issue</a><a href="#music">Music</a><a href="#letter">Letter</a>
+    </div>
+    <span class="nav-date">25 OCTOBER</span>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">A LITTLE UNIVERSE, MADE FOR YOU</p>
+        <p class="script">Happy Birthday</p>
+        <h1>Fatoma<span class="heart">♥</span></h1>
+        <p class="hero-copy">Another year of being<br>the most beautiful kind of chaos.</p>
+        <span class="date-pill">✦ 25 October ✦</span>
+        <a class="outline-btn" href="#gallery">ادخلي عالمك <span>↓</span></a>
+      </div>
+      <div class="hero-sticker sticker-one">the main<br>character ✧</div>
+      <div class="hero-sticker sticker-two">made with<br>love ♡</div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading">
+        <p class="eyebrow">A COLLECTION OF LITTLE MOMENTS</p>
+        <h2>Photo Gallery <span>♡</span></h2>
+        <p>كل صورة حكاية صغيرة من حكايات فطومة.</p>
+      </div>
+      <div class="filters" role="group" aria-label="تصنيف الصور">
+        <button class="filter active" data-filter="all">All moments</button>
+        <button class="filter" data-filter="childhood">Childhood</button>
+        <button class="filter" data-filter="family">Family</button>
+        <button class="filter" data-filter="random">Random chaos</button>
+      </div>
+      <div class="photo-grid" id="photoGrid">
+        <!-- حطي الصور في assets/images وغيّري أسماء الملفات هنا -->
+        <button class="photo-card tall" data-category="childhood" data-full="IMG-20261025-WA0019.jpg"><img src="IMG-20261025-WA0019.jpg" alt="ذكرى لفطومة" loading="lazy"><span>little memories ♡</span></button>
+        <button class="photo-card" data-category="childhood" data-full="IMG-20260813-WA0051.jpg"><img src="IMG-20260813-WA0051.jpg" alt="صورة من الذكريات" loading="lazy"><span>the good old days</span></button>
+        <button class="photo-card tall" data-category="random" data-full="IMG-20260813-WA0025.jpg"><img src="IMG-20260813-WA0025.jpg" alt="صورة لفطومة" loading="lazy"><span>main character</span></button>
+        <button class="photo-card" data-category="random" data-full="Snapchat-111118603.jpg"><img src="Snapchat-111118603.jpg" alt="ضحكة وذكرى" loading="lazy"><span>no context needed</span></button>
+        <button class="photo-card wide" data-category="childhood" data-full="20250421_233333.jpg"><img src="20250421_233333.jpg" alt="صورة قديمة لفطومة" loading="lazy"><span>a tiny piece of forever</span></button>
+        <button class="photo-card" data-category="random" data-full="IMG-20261025-WA0060.jpg"><img src="IMG-20261025-WA0060.jpg" alt="صورة عفوية" loading="lazy"><span>just Fatoma things</span></button>
+        <button class="photo-card" data-category="childhood" data-full="IMG-20250402-WA0008.jpg"><img src="IMG-20250402-WA0008.jpg" alt="ذكرى طفولة" loading="lazy"><span>little star</span></button>
+        <button class="photo-card" data-category="family" data-full="IMG-20261025-WA0043.jpg"><img src="IMG-20261025-WA0043.jpg" alt="ذكرى جميلة" loading="lazy"><span>loved, always</span></button>
+      
+        <button class="photo-card tall" data-category="childhood" data-full="IMG-20260813-WA0045.jpg"><img src="IMG-20260813-WA0045.jpg" alt="ذكرى لفطومة" loading="lazy"><span>little memories ♡</span></button>
+        <button class="photo-card wide" data-category="random" data-full="IMG-20261025-WA0036.jpg"><img src="IMG-20261025-WA0036.jpg" alt="لحظة عفوية" loading="lazy"><span>chaos, but cute</span></button>
+        <button class="photo-card" data-category="childhood" data-full="Snapchat-364470330.jpg"><img src="Snapchat-364470330.jpg" alt="صورة من الذكريات" loading="lazy"><span>the good old days</span></button>
+        <button class="photo-card tall" data-category="random" data-full="Snapchat-413049740.jpg"><img src="Snapchat-413049740.jpg" alt="صورة لفطومة" loading="lazy"><span>main character</span></button>
+        <button class="photo-card" data-category="random" data-full="IMG-20250402-WA0010.jpg"><img src="IMG-20250402-WA0010.jpg" alt="ضحكة وذكرى" loading="lazy"><span>no context needed</span></button>
+        <button class="photo-card wide" data-category="childhood" data-full="Snapchat-248244092.jpg"><img src="Snapchat-248244092.jpg" alt="صورة قديمة لفطومة" loading="lazy"><span>a tiny piece of forever</span></button>
+        <button class="photo-card" data-category="random" data-full="Snapchat-988484664.jpg"><img src="Snapchat-988484664.jpg" alt="صورة عفوية" loading="lazy"><span>just Fatoma things</span></button>
+        <button class="photo-card" data-category="childhood" data-full="Snapchat-360313034.jpg"><img src="Snapchat-360313034.jpg" alt="ذكرى طفولة" loading="lazy"><span>little star</span></button>
+        <button class="photo-card" data-category="family" data-full="Snapchat-147424982.jpg"><img src="Snapchat-147424982.jpg" alt="ذكرى جميلة" loading="lazy"><span>loved, always</span></button>
+        <button class="photo-card tall" data-category="childhood" data-full="IMG-20261025-WA0061(1).jpg"><img src="IMG-20261025-WA0061(1).jpg" alt="ذكرى لفطومة" loading="lazy"><span>little memories ♡</span></button>
+        <button class="photo-card wide" data-category="random" data-full="Snapchat-1589295251.jpg"><img src="Snapchat-1589295251.jpg" alt="لحظة عفوية" loading="lazy"><span>chaos, but cute</span></button>
+        <button class="photo-card" data-category="childhood" data-full="IMG-20261025-WA0021.jpg"><img src="IMG-20261025-WA0021.jpg" alt="صورة من الذكريات" loading="lazy"><span>the good old days</span></button>
+        <button class="photo-card tall" data-category="random" data-full="IMG-20260813-WA0047.jpg"><img src="IMG-20260813-WA0047.jpg" alt="صورة لفطومة" loading="lazy"><span>main character</span></button>
+        <button class="photo-card" data-category="family" data-full="IMG-20261025-WA0045.jpg"><img src="IMG-20261025-WA0045.jpg" alt="ذكرى عائلية" loading="lazy"><span>forever us</span></button>
+        <button class="photo-card" data-category="random" data-full="IMG-20261025-WA0040.jpg"><img src="IMG-20261025-WA0040.jpg" alt="ضحكة وذكرى" loading="lazy"><span>no context needed</span></button>
+        <button class="photo-card wide" data-category="childhood" data-full="IMG-20261025-WA0032.jpg"><img src="IMG-20261025-WA0032.jpg" alt="صورة قديمة لفطومة" loading="lazy"><span>a tiny piece of forever</span></button>
+        <button class="photo-card" data-category="family" data-full="IMG-20261025-WA0047.jpg"><img src="IMG-20261025-WA0047.jpg" alt="صورة مع العيلة" loading="lazy"><span>my favorite memories</span></button>
+        <button class="photo-card" data-category="random" data-full="IMG-20261025-WA0033.jpg"><img src="IMG-20261025-WA0033.jpg" alt="صورة عفوية" loading="lazy"><span>just Fatoma things</span></button>
+        <button class="photo-card" data-category="family" data-full="IMG-20260813-WA0053.jpg"><img src="IMG-20260813-WA0053.jpg" alt="ذكرى جميلة" loading="lazy"><span>loved, always</span></button>
+        <button class="photo-card tall" data-category="childhood" data-full="IMG-20260717-WA0027.jpg"><img src="IMG-20260717-WA0027.jpg" alt="ذكرى لفطومة" loading="lazy"><span>little memories ♡</span></button>
+        <button class="photo-card" data-category="family" data-full="IMG-20261025-WA0054.jpg"><img src="IMG-20261025-WA0054.jpg" alt="فطومة والعيلة" loading="lazy"><span>my people</span></button>
+        <button class="photo-card wide" data-category="random" data-full="IMG-20261025-WA0053.jpg"><img src="IMG-20261025-WA0053.jpg" alt="لحظة عفوية" loading="lazy"><span>chaos, but cute</span></button>
+        <button class="photo-card" data-category="childhood" data-full="IMG-20261025-WA0050.jpg"><img src="IMG-20261025-WA0050.jpg" alt="صورة من الذكريات" loading="lazy"><span>the good old days</span></button>
+        <button class="photo-card tall" data-category="random" data-full="IMG-20260813-WA0046.jpg"><img src="IMG-20260813-WA0046.jpg" alt="صورة لفطومة" loading="lazy"><span>main character</span></button>
+        <button class="photo-card" data-category="family" data-full="IMG-20261025-WA0052.jpg"><img src="IMG-20261025-WA0052.jpg" alt="ذكرى عائلية" loading="lazy"><span>forever us</span></button>
+        <button class="photo-card" data-category="random" data-full="IMG-20261025-WA0049.jpg"><img src="IMG-20261025-WA0049.jpg" alt="ضحكة وذكرى" loading="lazy"><span>no context needed</span></button>
+        <button class="photo-card wide" data-category="childhood" data-full="IMG-20261025-WA0056(1).jpg"><img src="IMG-20261025-WA0056(1).jpg" alt="صورة قديمة لفطومة" loading="lazy"><span>a tiny piece of forever</span></button>
+        <button class="photo-card" data-category="family" data-full="Snapchat-160192796.jpg"><img src="Snapchat-160192796.jpg" alt="صورة مع العيلة" loading="lazy"><span>my favorite memories</span></button>
+        <button class="photo-card" data-category="random" data-full="Snapchat-1129330255.jpg"><img src="Snapchat-1129330255.jpg" alt="صورة عفوية" loading="lazy"><span>just Fatoma things</span></button>
+        <button class="photo-card" data-category="family" data-full="Snapchat-1507433113.jpg"><img src="Snapchat-1507433113.jpg" alt="ذكرى جميلة" loading="lazy"><span>loved, always</span></button>
+        <button class="photo-card tall" data-category="childhood" data-full="Snapchat-1138995318.jpg"><img src="Snapchat-1138995318.jpg" alt="ذكرى لفطومة" loading="lazy"><span>little memories ♡</span></button>
+        <button class="photo-card" data-category="family" data-full="Snapchat-1590843667.jpg"><img src="Snapchat-1590843667.jpg" alt="فطومة والعيلة" loading="lazy"><span>my people</span></button>
+        <button class="photo-card wide" data-category="random" data-full="Snapchat-1882273074.jpg"><img src="Snapchat-1882273074.jpg" alt="لحظة عفوية" loading="lazy"><span>chaos, but cute</span></button>
+        <button class="photo-card" data-category="childhood" data-full="IMG-20261025-WA0042(1).jpg"><img src="IMG-20261025-WA0042(1).jpg" alt="صورة من الذكريات" loading="lazy"><span>the good old days</span></button>
+        <button class="photo-card tall" data-category="random" data-full="IMG-20261025-WA0028.jpg"><img src="IMG-20261025-WA0028.jpg" alt="صورة لفطومة" loading="lazy"><span>main character</span></button>
+        <button class="photo-card" data-category="family" data-full="IMG-20261025-WA0022.jpg"><img src="IMG-20261025-WA0022.jpg" alt="ذكرى عائلية" loading="lazy"><span>forever us</span></button>
+        <button class="photo-card" data-category="random" data-full="IMG-20250402-WA0009.jpg"><img src="IMG-20250402-WA0009.jpg" alt="ضحكة وذكرى" loading="lazy"><span>no context needed</span></button>
+        <button class="photo-card wide" data-category="childhood" data-full="IMG-20261025-WA0023.jpg"><img src="IMG-20261025-WA0023.jpg" alt="صورة قديمة لفطومة" loading="lazy"><span>a tiny piece of forever</span></button>
+        <button class="photo-card" data-category="family" data-full="IMG-20261025-WA0048.jpg"><img src="IMG-20261025-WA0048.jpg" alt="صورة مع العيلة" loading="lazy"><span>my favorite memories</span></button>
+        <button class="photo-card" data-category="random" data-full="Snapchat-274987482.jpg"><img src="Snapchat-274987482.jpg" alt="صورة عفوية" loading="lazy"><span>just Fatoma things</span></button>
+        <button class="photo-card" data-category="childhood" data-full="Snapchat-713359685.jpg"><img src="Snapchat-713359685.jpg" alt="ذكرى طفولة" loading="lazy"><span>little star</span></button>
+        <button class="photo-card" data-category="family" data-full="IMG-20261025-WA0051.jpg"><img src="IMG-20261025-WA0051.jpg" alt="ذكرى جميلة" loading="lazy"><span>loved, always</span></button>
+        <button class="photo-card tall" data-category="childhood" data-full="Snapchat-69960895.jpg"><img src="Snapchat-69960895.jpg" alt="ذكرى لفطومة" loading="lazy"><span>little memories ♡</span></button>
+        <button class="photo-card" data-category="family" data-full="Snapchat-133859067.jpg"><img src="Snapchat-133859067.jpg" alt="فطومة والعيلة" loading="lazy"><span>my people</span></button>
+        <button class="photo-card wide" data-category="random" data-full="Snapchat-2125886690.jpg"><img src="Snapchat-2125886690.jpg" alt="لحظة عفوية" loading="lazy"><span>chaos, but cute</span></button>
+        <button class="photo-card" data-category="childhood" data-full="Snapchat-2134123106.jpg"><img src="Snapchat-2134123106.jpg" alt="صورة من الذكريات" loading="lazy"><span>the good old days</span></button>
+        <button class="photo-card tall" data-category="random" data-full="20260828_221454.jpg"><img src="20260828_221454.jpg" alt="صورة لفطومة" loading="lazy"><span>main character</span></button>
+        <button class="photo-card" data-category="family" data-full="IMG-20261025-WA0058.jpg"><img src="IMG-20261025-WA0058.jpg" alt="ذكرى عائلية" loading="lazy"><span>forever us</span></button>
+        <button class="photo-card" data-category="random" data-full="IMG-20260813-WA0050.jpg"><img src="IMG-20260813-WA0050.jpg" alt="ضحكة وذكرى" loading="lazy"><span>no context needed</span></button>
+        <button class="photo-card wide" data-category="childhood" data-full="IMG-20260813-WA0049.jpg"><img src="IMG-20260813-WA0049.jpg" alt="صورة قديمة لفطومة" loading="lazy"><span>a tiny piece of forever</span></button>
+        <button class="photo-card" data-category="family" data-full="Snapchat-136882802.jpg"><img src="Snapchat-136882802.jpg" alt="صورة مع العيلة" loading="lazy"><span>my favorite memories</span></button>
+        <button class="photo-card" data-category="random" data-full="IMG-20261025-WA0039.jpg"><img src="IMG-20261025-WA0039.jpg" alt="صورة عفوية" loading="lazy"><span>just Fatoma things</span></button>
+        <button class="photo-card" data-category="childhood" data-full="IMG-20261025-WA0041.jpg"><img src="IMG-20261025-WA0041.jpg" alt="ذكرى طفولة" loading="lazy"><span>little star</span></button>
+        <button class="photo-card" data-category="family" data-full="IMG-20261025-WA0057.jpg"><img src="IMG-20261025-WA0057.jpg" alt="ذكرى جميلة" loading="lazy"><span>loved, always</span></button>
+        <button class="photo-card tall" data-category="childhood" data-full="IMG-20261025-WA0063(1).jpg"><img src="IMG-20261025-WA0063(1).jpg" alt="ذكرى لفطومة" loading="lazy"><span>little memories ♡</span></button>
+        <button class="photo-card wide" data-category="random" data-full="IMG-20261025-WA0035.jpg"><img src="IMG-20261025-WA0035.jpg" alt="لحظة عفوية" loading="lazy"><span>chaos, but cute</span></button>
+        <button class="photo-card" data-category="childhood" data-full="IMG-20261025-WA0037.jpg"><img src="IMG-20261025-WA0037.jpg" alt="صورة من الذكريات" loading="lazy"><span>the good old days</span></button>
+        <button class="photo-card tall" data-category="random" data-full="IMG-20261025-WA0031.jpg"><img src="IMG-20261025-WA0031.jpg" alt="صورة لفطومة" loading="lazy"><span>main character</span></button>
+        <button class="photo-card" data-category="random" data-full="IMG-20260813-WA0052.jpg"><img src="IMG-20260813-WA0052.jpg" alt="ضحكة وذكرى" loading="lazy"><span>no context needed</span></button>
+        <button class="photo-card" data-category="random" data-full="Snapchat-167645083.jpg"><img src="Snapchat-167645083.jpg" alt="صورة عفوية" loading="lazy"><span>just Fatoma things</span></button>
+        <button class="photo-card" data-category="family" data-full="Snapchat-257935066.jpg"><img src="Snapchat-257935066.jpg" alt="ذكرى جميلة" loading="lazy"><span>loved, always</span></button>
+        <button class="photo-card tall" data-category="childhood" data-full="Snapchat-1203394575.jpg"><img src="Snapchat-1203394575.jpg" alt="ذكرى لفطومة" loading="lazy"><span>little memories ♡</span></button>
+        <button class="photo-card wide" data-category="random" data-full="Snapchat-285297707.jpg"><img src="Snapchat-285297707.jpg" alt="لحظة عفوية" loading="lazy"><span>chaos, but cute</span></button>
+        <button class="photo-card" data-category="childhood" data-full="Snapchat-685218354.jpg"><img src="Snapchat-685218354.jpg" alt="صورة من الذكريات" loading="lazy"><span>the good old days</span></button>
+        <button class="photo-card tall" data-category="random" data-full="IMG-20261025-WA0025(1).jpg"><img src="IMG-20261025-WA0025(1).jpg" alt="صورة لفطومة" loading="lazy"><span>main character</span></button>
+        <button class="photo-card" data-category="random" data-full="IMG-20261025-WA0029.jpg"><img src="IMG-20261025-WA0029.jpg" alt="ضحكة وذكرى" loading="lazy"><span>no context needed</span></button>
+        <button class="photo-card" data-category="random" data-full="IMG-20261025-WA0034(1).jpg"><img src="IMG-20261025-WA0034(1).jpg" alt="صورة عفوية" loading="lazy"><span>just Fatoma things</span></button>
+        <button class="photo-card" data-category="family" data-full="Snapchat-1262604996.jpg"><img src="Snapchat-1262604996.jpg" alt="ذكرى جميلة" loading="lazy"><span>loved, always</span></button>
+        <button class="photo-card tall" data-category="childhood" data-full="Snapchat-1702690734.jpg"><img src="Snapchat-1702690734.jpg" alt="ذكرى لفطومة" loading="lazy"><span>little memories ♡</span></button>
+        <button class="photo-card wide" data-category="random" data-full="Snapchat-1041090729.jpg"><img src="Snapchat-1041090729.jpg" alt="لحظة عفوية" loading="lazy"><span>chaos, but cute</span></button>
+        <button class="photo-card" data-category="childhood" data-full="Snapchat-664122664.jpg"><img src="Snapchat-664122664.jpg" alt="صورة من الذكريات" loading="lazy"><span>the good old days</span></button>
+        <button class="photo-card tall" data-category="random" data-full="Snapchat-1665681580.jpg"><img src="Snapchat-1665681580.jpg" alt="صورة لفطومة" loading="lazy"><span>main character</span></button>
+        <button class="photo-card" data-category="random" data-full="Snapchat-1462133793.jpg"><img src="Snapchat-1462133793.jpg" alt="ضحكة وذكرى" loading="lazy"><span>no context needed</span></button>
+        <button class="photo-card" data-category="random" data-full="Snapchat-1936052783.jpg"><img src="Snapchat-1936052783.jpg" alt="صورة عفوية" loading="lazy"><span>just Fatoma things</span></button>
+        <button class="photo-card" data-category="family" data-full="Snapchat-1262604996.jpg"><img src="Snapchat-1262604996.jpg" alt="ذكرى جميلة" loading="lazy"><span>loved, always</span></button>
+        <button class="photo-card wide" data-category="random" data-full="Snapchat-1788534676.jpg"><img src="Snapchat-1788534676.jpg" alt="لحظة عفوية" loading="lazy"><span>chaos, but cute</span></button>
+        <button class="photo-card" data-category="childhood" data-full="Snapchat-2003513918.jpg"><img src="Snapchat-2003513918.jpg" alt="صورة من الذكريات" loading="lazy"><span>the good old days</span></button>
+        <button class="photo-card" data-category="random" data-full="Snapchat-1354776404.jpg"><img src="Snapchat-1354776404.jpg" alt="ضحكة وذكرى" loading="lazy"><span>no context needed</span></button>
+        <button class="photo-card" data-category="random" data-full="Snapchat-330902078.jpg"><img src="Snapchat-330902078.jpg" alt="صورة عفوية" loading="lazy"><span>just Fatoma things</span></button>
+        <button class="photo-card" data-category="family" data-full="Snapchat-1701284555.jpg"><img src="Snapchat-1701284555.jpg" alt="ذكرى جميلة" loading="lazy"><span>loved, always</span></button>
+        <button class="photo-card wide" data-category="random" data-full="Snapchat-272104602.jpg"><img src="Snapchat-272104602.jpg" alt="لحظة عفوية" loading="lazy"><span>chaos, but cute</span></button>
+        <button class="photo-card tall" data-category="childhood" data-full="Snapchat-1936077524.jpg"><img src="Snapchat-1936077524.jpg" alt="ذكرى لفطومة" loading="lazy"><span>little memories ♡</span></button>
+        <button class="photo-card" data-category="childhood" data-full="Snapchat-991718301.jpg"><img src="Snapchat-991718301.jpg" alt="صورة من الذكريات" loading="lazy"><span>the good old days</span></button>
+        <button class="photo-card" data-category="random" data-full="Snapchat-662488633.jpg"><img src="Snapchat-662488633.jpg" alt="ضحكة وذكرى" loading="lazy"><span>no context needed</span></button>
+        <button class="photo-card" data-category="random" data-full="Snapchat-1946483932.jpg"><img src="Snapchat-1946483932.jpg" alt="صورة عفوية" loading="lazy"><span>just Fatoma things</span></button>
+        <button class="photo-card" data-category="family" data-full="Snapchat-263522310.jpg"><img src="Snapchat-263522310.jpg" alt="ذكرى جميلة" loading="lazy"><span>loved, always</span></button>
+        <button class="photo-card wide" data-category="random" data-full="Snapchat-88566884.jpg"><img src="Snapchat-88566884.jpg" alt="لحظة عفوية" loading="lazy"><span>chaos, but cute</span></button>
+        <button class="photo-card" data-category="childhood" data-full="Snapchat-1458292069.jpg"><img src="Snapchat-1458292069.jpg" alt="صورة من الذكريات" loading="lazy"><span>the good old days</span></button>
+
+</div>
+      <p class="gallery-note">المتحف لسه بيتملّي بذكرياتك… ✦</p>
+    </section>
+
+    <section class="magazine section" id="issue">
+      <div class="mag-cover">
+        <div class="cover-top">THE BIRTHDAY ISSUE <span>NO. 025</span></div>
+        <h2>FATOMA</h2>
+        <div class="cover-date">OCTOBER 25</div>
+        <div class="cover-photo"><img src="Snapchat-1203394575.jpg" alt="صورة غلاف فطومة" loading="lazy"></div>
+        <div class="cover-side"><strong>MAIN CHARACTER<br>ENERGY</strong><p>Kind heart.<br>Big dreams.<br>Unforgettable laugh.</p></div>
+        <div class="cover-bottom">A SPECIAL EDITION — MADE WITH LOVE ♡</div>
+      </div>
+      <div class="mag-copy">
+        <p class="eyebrow">EXCLUSIVE EDITION</p>
+        <h2>One girl.<br><em>A thousand memories.</em></h2>
+        <p>في ناس وجودها بيخلّي الصور أحلى والذكريات أدفى… والعدد ده كله معمول لبنت واحدة تستاهل الدلع والحب.</p>
+        <div class="fact-list"><p><span>01</span> صاحبة ضحكة معدية</p><p><span>02</span> بطلة حكايات العيلة</p><p><span>03</span> تستاهل سنة كلها فرحة</p></div>
+      </div>
+    </section>
+
+    <section class="music-section section" id="music">
+      <div class="music-card">
+        <div class="music-glow"></div>
+        <p class="eyebrow">SOUNDTRACK OF YOUR DAY</p>
+        <h2>Fatoma Mode <span>♫</span></h2>
+        <div class="record-wrap"><div class="record"><div class="record-label">F<br><small>♡</small></div></div></div>
+        <p class="track-title">فطومة — واما</p>
+        <p class="music-caption">أغنيتك الخاصة النهارده 🎶</p>
+<audio
+  id="birthdaySong"
+  autoplay
+  loop
+  preload="auto"
+  src="WAMA – Fatouma (Official Lyric Video) (واما – فطومه (كلمات.mp3">
+</audio>        <div class="audio-controls">
+          <button id="soundToggle" class="sound-btn" type="button">♫ تشغيل الصوت</button>
+          <span id="audioStatus" aria-live="polite">بنحاول نشغّل الأغنية…</span>
+        </div>
+        <p class="tiny-note">لو المتصفح منع التشغيل التلقائي، اضغطي زر الصوت مرة واحدة.</p>
+      </div>
+    </section>
+
+    <section class="letter-section section" id="letter">
+      <div class="letter-scene">
+        <div class="letter-decoration">♡</div>
+        <button id="openLetter" class="envelope" aria-label="افتحي الرسالة">
+          <span class="envelope-label">A little letter for you</span>
+          <span class="envelope-heart">♥</span>
+          <span class="envelope-hint">اضغطي عشان تفتحي رسالتك</span>
+        </button>
+        <article class="letter-paper" id="letterPaper" aria-hidden="true">
+          <button id="closeLetter" class="close-letter" aria-label="إغلاق الرسالة">×</button>
+          <p class="letter-kicker">TO MY DEAREST FATOMA,</p>
+          <h2>يا فطومة يا حتة من قلبي ♡</h2>
+          <p>كل سنة وإنتِ فرحة من فرحات العيلة، وضحكة بتخلّي الأيام ألطف. عملتلك المكان الصغير ده عشان أقولك إنك غالية عندي أكتر ما الكلام يقدر يوصف.</p>
+          <p>أتمنى سنتك الجديدة تكون مليانة حاجات حلوة، وناس بتحبك بجد، وذكريات تفضلي تضحكي عليها سنين طويلة. خليكِ دايمًا على طبيعتك، بضحكتك وروحك اللي مفيش منها اتنين.</p>
+          <p class="letter-sign">بحبك أوي،<br>بنت عمك ومهندسة العيلة ♡</p>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>IT'S NOT JUST A WEBSITE… IT'S A PIECE OF MY HEART FOR YOU.</p>
+      <h2>Happy Birthday, Fatoma <span>♥</span></h2>
+      <p class="footer-small">Made with love, by your cousin ✦</p>
+    </footer>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button id="lightboxClose" aria-label="إغلاق الصورة">×</button>
+    <img id="lightboxImage" src="" alt="صورة مكبرة من ذكريات فطومة">
+    <p id="lightboxCaption"></p>
+  </div>
+  <div class="confetti-layer" id="confettiLayer"></div>
+  <script src="script.js"></script>
+</body>
+</html>
